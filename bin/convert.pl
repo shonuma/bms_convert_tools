@@ -79,7 +79,7 @@ sub create_bms_sql{
 
 sub main{
   if(@ARGV != 3){
-    die('./bin/convert.pl <filename> <schema> <team_id>');
+    die('./bin/convert.pl <filename> <type: toushu/dageki> <team_id>');
   }
 
   # チームIDはDBから引く
